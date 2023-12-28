@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+/* logo.css */
+.logo {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.logo h1 {
+    font-family: Arial, sans-serif; /* Choose your desired font */
+    font-size: 48px; /* Adjust the font size as needed */
+    color: #333; /* Choose your desired color */
+    text-transform: uppercase; /* Uppercase the text */
+    /* Any other styles you want to apply */
+}
+
+
+/* Style for the card */
+#kanji {
+    font-size: 28px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#kanji:hover {
+    cursor: url("soundcursor24.png"), pointer;
+}
+
+#hiragana {
+    font-size: 24px;
+}
+
+#sentence {
+    font-size: 18px; /* Increased font size */
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sentence:hover {
+    cursor: url("soundcursor24.png"), pointer;
+}
+
+#sentencekana {
+    font-size: 16px; /* Increased font size */
+}
+
+#engsentence {
+    font-style: italic;
+    font-size: 18px; /* Increased font size */
+}
+
+#arrayindex {
+    font-size: 16px; /* Increased font size */
+    margin-bottom: 20px;
+}
+
+#vocabselect {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+b {
+    color: green;
+}
