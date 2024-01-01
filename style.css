@@ -51,7 +51,7 @@ p {
 }
 
 #kanji:hover {
-    cursor: url("soundcursor24.png"), pointer;
+    cursor: url("./assets/soundcursor24.png"), pointer;
 }
 
 #hiragana {
@@ -71,7 +71,7 @@ p {
 }
 
 #sentence:hover {
-    cursor: url("soundcursor24.png"), pointer;
+    cursor: url("./assets/soundcursor24.png"), pointer;
 }
 
 #sentencekana {
